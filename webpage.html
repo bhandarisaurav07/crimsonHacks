@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+
+<html lang="en">
+    
+  <head>
+      
+    <meta charset="utf-8">
+      
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/css/bootstrap.min.css" integrity="sha384-y3tfxAZXuh4HwSYylfB+J125MxIs6mR5FOHamPBG064zB+AFeWH94NdvaCBm8qnd" crossorigin="anonymous">
+      
+  </head>
+    
+  <body>
+     
+      
+     <nav class="navbar navbar-fixed-top navbar-light navbar-dark bg-inverse">
+  <a class="navbar-brand" href="#">Anxiety Reliever</a>
+    
+    
+ </nav>
+      <div class="container" style="margin-top:70px" ng-controller="loginCtrl">
+        
+         
+         <form action="/" id="myLogin">
+             <div class="form-group">
+             <label for="UserName">Your Name</label>
+                 <input type="text" class="form-control" id="UserName" aria-describedy="NameAlert"placeholder="Enter your name" ng-model="username">
+               
+             
+
+             </div>
+                
+             <div class="form-group">
+             <label for="DisplayName">Your Dipsplay Name</label>
+                 <input type="text" class="form-control" id="DisplayName" placeholder="Enter your display name" required ng-model="displayname">
+                 <small id="emailHelp" class="form-text text-muted">You can give any name you like</small>
+             
+
+             </div>             
+             
+             <div class="form-group">
+    <label for="Email">Email address</label>
+    <input type="email" class="form-control" id="Email" aria-describedby="email" placeholder="Enter email" ng-model="email">
+    <small id="email" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+   <div class="form-group form-check">
+    <label for="Phone">Phone No.</label>
+     <input type="phone" class="form-control" id="phone" aria-describedby="email" placeholder="Enter Phone number" ng-model="phone">
+
+     <label for="Phone">Phone number of someone close to you.</label>
+     <input type="phone" class="form-control" id="phoneC" aria-describedby="email" placeholder="Enter Phone number" ng-model="phoneC">
+
+
+  </div>
+  <button type="submit" class="btn btn-light" ng-click="submit()">Submit</button>
+</form>
+          
+          
+         </div>
+      
+
+      
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+      
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.2/js/bootstrap.min.js" integrity="sha384-vZ2WRJMwsjRMW/8U7i6PWi6AlO1L79snBrmgiDpgIWJ82z8eA5lenwvxbMV1PAh7" crossorigin="anonymous"></script>
+      
+  </body>
+    
+</html>
