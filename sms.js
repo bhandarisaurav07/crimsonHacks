@@ -1,7 +1,5 @@
 
 
-const accountSid= 'AC4f62813e582e3fc9d34b13c33f81916c';
-const authToken= 'c96c09742c37049c6e9ec28a9ad19a5a';
 
 var inspect = require('util').inspect
 
